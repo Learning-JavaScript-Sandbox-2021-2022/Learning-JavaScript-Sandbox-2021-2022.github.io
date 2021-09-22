@@ -9,7 +9,7 @@ function javascript () {
 
 function main () {
   let firstNumber, secondNumber;
-  firstNumber = document.getElementByID("textField1").value;
+  firstNumber = document.getElementByID("textfield1").value;
   secondNumber = document.getElementByID("textfield2").value;
 
 
