@@ -1,4 +1,4 @@
-console.log("rhrhher");
+console.log("LandscapePortrait");
 
 let stop = false;
 

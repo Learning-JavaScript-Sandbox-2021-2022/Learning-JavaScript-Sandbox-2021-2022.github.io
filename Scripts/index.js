@@ -1,1 +1,1 @@
-console.log("asoiubosf");
+console.log("index");
