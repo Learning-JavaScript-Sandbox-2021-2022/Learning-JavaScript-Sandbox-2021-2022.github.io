@@ -1,30 +1,34 @@
-console.log("MaxofTwoNumbers");
+let stop = false; //Boolean for testNaN() validation function, see end of file
 
-
-let stop = false;
-
-function javascript () {
-
+function javascript () { //Where colsole.log tested file goes
+  console.log("You made it to the Max_ofTwoNumbers.js!");
 }
-
-function main () {
-  let firstNumber, secondNumber;
-  firstNumber = document.getElementByID("textfield1").value;
-  secondNumber = document.getElementByID("textfield2").value;
-
-
-  document.getElementByID("validityTest1").innerHTML = alert (testNAN (firstNumber) );
-  document.getElementByID("validityTest2").innerHTML = testNAN (firstNumber);
-  document.getElementByID("validityTest1").innerHTML = alert (testNAN (secondNumber) );
-  document.getElementByID("validityTest2").innerHTML = testNAN (secondNumber);
-}
-
-function testNAN (number) {
-  if ( isNAN (number) ) { //
-    stop = ture;
+//Main Function, necessary lines of code
+function main() {
+  let firstNumber, secondNumber; //Variables particular to JavsScript Assignment
+  //Get the value of the Heighth Input Field, id="testfield1", assign it to a variable
+  firstNumber = document.getElementById("textField1").value;
+  secondNumber = document.getElementById("textField2").value;
+  //Validate by alert or HTML Text in p-tag
+  document.getElementById("validityTest1").innerHTML = alert (testNaN (firstNumber) );
+  document.getElementById("validityTest1").innerHTML = testNaN (firstNumber);
+  document.getElementById("validityTest2").innerHTML = alert (testNaN (secondNumber) );
+  document.getElementById("validityTest2").innerHTML = testNaN (secondNumber);
+  if (stop == true) {
+      document.getElementById("answer").innerHTML = "Restart because I said so." //Change to more appropriate message
+    } else {
+      //Difference between calling functions with arguements and sending to parameter's, local variables
+      console.log("What did you say?").javaScriptFunction.Solution (firstNumber, secondNumber); // Change to more appropriate message
+      document.getElementById("answer").innerHTML = "What did you say? " + geometry (firstNumber, secondNumber);
+    }
+} //End main()
+//
+function testNaN (number) {
+  if ( isNaN (number) ) { //NaN are not values o REAL Number System
+    stop = true;
     return "Type a Real Number"
   } else {
     return "Input Validated"
   }
 
-}
+}//End testNaN()
