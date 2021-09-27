@@ -9,96 +9,117 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
 
+
   <body>
-    <header><h1>LandScape or Portrait Assignment</h1></header>
-      <nav></nav><section><h3></h3><article><p>Description of Assignment</p></article></section>
+<header><h1>Landscape or Portrait Assignment</h1></header>
+  <nav></nav>
 
-      <section>
+  <section>
+    <article> Description of Assignment
+      <ul>
+        <li> Problem: Calculate if geometry example is landscape or portrait
+        <li> Test cases:
+          <ul>
+            <li> Input is width number and height number
+            <li> Examples of images, screens, displays, etc.
+          </ul>
+        <li> Return the word for the calculated result
+          <ul>
+            <li> Examples: Landscape is width > height
+            <li> Examples: Portrait is width < height
+            <li> Examples: Square is width = height
+          </ul>
+      </ul>
+    </article>
+  </section>
+  <section>
 
-        <form action="x.html" method="post" onsubmit="event.preventDefault";>
-        <!--Ensures this FORM doesn't work with PHP or other server side scripting languages-->
-        <p>&nbsp;</p>
-        <!-- See: https://www.w3schools.com/html/html_entities.asp-->
-        <!-- Non-breaking real space, adds real space to the webpage that is not eliminated by the browser    -->
-        <p>
-          <label for="textfield">Number1:</label>
-          <input name="textfield1" type="text" id"textfield1">
-        </p>
-        <p>
-          <label for="textfield">Number2:</label>
-          <input name="textfield2" type="text" id"textfield2">
-        </p>
-        <p>
-          <label for="tArea">Text Area or Box: </label>
-          <testarea type="tArea" cols="20" rows="4" id="password"></textarea>
-        </p>
-        <p>&nbsp</p>
+    <form action="x.html" method="post" onsubmit="event.preventDefault";>
+    <!--Ensure this FORM doesn't work with PHP or other server side scripting languages-->
+    <p>&nbsp;</p>
+    <!-- See: https://www.w3schools.com/html/html_entities.asp-->
+    <!-- Non-breaking real space, adds real space to the webapge that is not elminiated by the browser (hard coded space)  -->
+    <p>
+      <label for="textfield">Number1:</label>
+      <input name="textfield1" type="text" id="textfield1">
+    </p>
+    <p>
+      <label for="textfield">Number2:</label>
+      <input name="textfield2" type="text" id="textfield2">
+    </p>
+    <p>
+      <!-- Text Area is mutliline plain text editting control-->
+      <label for="tArea">Text Area or Box: </label>
+      <textarea type="tArea" cols="20" rows="4" id="password"></textarea>
+    </p>
+    <p>&nbsp</p>
 
-        <fieldset>
-          <legend>Case Studies</legend>
-          <div> TestCases
-            <ul>
-              <li>
-            </ul>
-          </div>
-          <label>
-            <input type="radio" name"RadioGroup1" value="radio1" id="RadioGroup1_0">
-            Radio 1
-          </label>
-          <br>
-          <label>
-            <input type="radio" name"RadioGroup1" value="radio2" id="RadioGroup1_1">
-            Radio 2
-          </label>
-          <br>
-          <label>
-            <input type="radio" name"RadioGroup1" value="radio3" id="RadioGroup1_2">
-            Radio 3
-          </label>
-          <br>
-        </fieldset>
+    <fieldset>
+      <legend> Case Studies</legend>
+      <div> TestCases
+        <ul>
+          <li>
+        </ul>
+      </div>
+      <label>
+        <input type="radio" name="RadioGroup1" value="radio1" id="RadioGroup1_0">
+        Radio 1
+      </label>
+      <br>
+      <label>
+        <input type="radio" name="RadioGroup1" value="radio2" id="RadioGroup1_1">
+        Radio 2
+      </label>
+      <br>
+      <label>
+        <input type="radio" name="RadioGroup1" value="radio3" id="RadioGroup1_2">
+        Radio 3
+      </label>
+      <br>
+    </fieldset>
 
-        <p>&nbsp</p>
-        <fieldset>
-          <legend>Case Studies</legend>
-          <div> TestCases
-            <ul>
-              <li>
-            </ul>
-          </div>
-          <label>
-            <input type="checkbox" name"CheckboxGroup1" value="checkbox1" id="CheckboxGroup1_0">
-            Checkbox 1
-          </label>
-          <br>
-          <label>
-            <input type="checkbox" name"CheckboxGroup1" value="checkbox2" id="CheckboxGroup1_1">
-            Checkbox 2
-          </label>
-          <br>
-          <label>
-            <input type="checkbox" name"CheckboxGroup1" value="checkbox3" id="CheckboxGroup1_2">
-            Checkbox 3
-          </label>
-          <br>
-          </fieldset>
-        </fieldset>
+    <p>&nbsp</p>
+    <fieldset>
+      <legend> Case Studies</legend>
+      <div> TestCases
+        <ul>
+          <li>
+        </ul>
+      </div>
+      <label>
+        <input type="checkbox" name="CheckboxGroup1" value="checkbox1" id="CheckboxGroup1_0">
+        Checkbox 1
+      </label>
+      <br>
+      <label>
+        <input type="checkbox" name="CheckboxGroup1" value="checkbox2" id="CheckboxGroup1_1">
+        Checkbox 2
+      </label>
+      <br>
+      <label>
+        <input type="checkbox" name="CheckboxGroup1" value="checkbox3" id="CheckboxGroup1_2">
+        Checkbox 3
+      </label>
+      <br>
+    </fieldset>
 
-        <br><br>
-        <button type="button" onclick="main()">Submit</button>
-        <br>
-        <h3>The answer is:
-          <a id="">What is the Answer?!!!!</a>
-        </h3>
-        <article></article>
-      </section>
+    <!--Submit Button-->
+    <br><br>
+    <button type="button" onclick="main()">Submit</button>
+    <br>
+    <h3>The answer is:
+      <a id="">What is the Answer?!!!</a>
+    </h3>
+    <article></article>
+  </section>
 
-      <aside><p></p></aside>
-      <section><h3></h3><article><p></p></article></section>
 
-    <script src="../scripts/LandScapePortrait.js"></script>
+  <aside><p></p></aside>
+  <section><h3></h3><article><p></p></article></section>
 
-  </body>
+<script src="../scripts/LandscapePortrait.js"></script>
+
+</body>
 
   <footer>
     <blockquote cite="https://www.apswc.org/education-is-the-passport-to-the-future/">
