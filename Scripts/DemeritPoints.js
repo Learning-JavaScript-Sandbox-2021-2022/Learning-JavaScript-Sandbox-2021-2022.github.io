@@ -1,4 +1,4 @@
-console.log("DemeritPoints");
+console.log("DemeritPoints baby!!!");
 
 
 let stop = false;
