@@ -26,7 +26,7 @@ if (speed >= 130){
   document.getElementById("answer").innerHTML = "2 Demerit Points"
 } else if (speed >= 75){
   document.getElementById("answer").innerHTML = "1 Demerit Point"
-} else (speed >= 0){
+} else{
   document.getElementById("answer").innerHTML = "No Demerit Points"
 }
 
