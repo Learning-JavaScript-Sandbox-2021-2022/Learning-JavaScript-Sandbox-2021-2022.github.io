@@ -26,11 +26,7 @@ if (speed >= 130){
   document.getElementById("answer").innerHTML = "2 Demerit Points"
 } else if (speed >= 75){
   document.getElementById("answer").innerHTML = "1 Demerit Point"
-} else if (speed <= 74){
-  document.getElementById("answer").innerHTML = "No Demerit Points"
-} else {
-  console.log("Drive Safe!");
-}
+} 
 
 
 
