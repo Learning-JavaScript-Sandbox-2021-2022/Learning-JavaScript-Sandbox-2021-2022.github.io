@@ -10,65 +10,16 @@
   </head>
 
   <body>
-     <header><h1>Demerit Points Assignment</h1></header>
-     <nav></nav>
 
-     <section>
-       <article> Description of Assignment
-         <ul>
-           <li> Problem: input a speed and calculated the demerit points
-           <li> Note: speed limit is 70 km per hour
-           <li> Note: for every 5km above speed limit, 1 demerit point
-           <li> Note: at any speed limit, 12 demerit points means lisence suspended
-           <li> Test cases:
-             <ul>
-               <li>68 km/h: 0 pionts
-               <li>70 km/h: 0 points
-               <li>71 km/h: 0 points
-               <li>74 km/h: 0 points
-               <li>75 km/h: 1 Points
-               <li> 85 km/h: 3 points
-               <li> 102 km/h: 6 point (round down)
-               <li> 115 km/h: 9 point
-               <li> 130 km/h: lisence is suspended
-             </ul>
-           <li> Coding Hints
-             <ul>
-               <li> math.floor(): function to remove any decimal places, never rounding
-             </ul>
-         </ul>
-       </article>
-     </section>
-     <section>
+<p>
+Speed: <input id="speed" type="text">
+</p>
+<br>
 
-       <section>
+<button id="inputButton">Result Button</button>
 
-         <form action="x.html" method="post" onsubmit="event.preventDefault";>
-         <!--Ensure this FORM doesn't work with PHP or other server side scripting languages-->
-         <p>&nbsp;</p>
-         <!-- See: https://www.w3schools.com/html/html_entities.asp-->
-         <!-- Non-breaking real space, adds real space to the webapge that is not elminiated by the browser (hard coded space)  -->
-         <p>
-           Speed: <input id="speed" type="text">
-         </p>
-
-         <!--Submit Button-->
-         <br><br>
-         <button id="inputButton" type="button" onclick="main()">Submit</button>
-         <br>
-         <h3>The answer is:
-           <a id="answer">What is the Answer?!!!</a>
-         </h3>
-         <article></article>
-       </section>
-
-
-       <aside><p></p></aside>
-       <section><h3></h3><article><p></p></article></section>
-
-     <script src="../scripts/DemeritPoints.js"></script>
-
-   </body>
+<p id="answer">Speed</p>
+  </body>
 
   <footer>
     <blockquote cite="https://www.apswc.org/education-is-the-passport-to-the-future/">
